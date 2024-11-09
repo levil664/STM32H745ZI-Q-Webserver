@@ -1,0 +1,10 @@
+14:33:14 **** Incremental Build of configuration Debug for project projectPP2024_CM7 ****
+make -j4 all 
+arm-none-eabi-size   projectPP2024_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  81140	  19171	  30652	 130963	  1ff93	projectPP2024_CM7.elf
+Finished building: default.size.stdout
+ 
+
+14:33:15 Build Finished. 0 errors, 0 warnings. (took 945ms)
+
