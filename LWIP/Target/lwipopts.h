@@ -52,9 +52,9 @@
 /*----- Value in opt.h for MEM_ALIGNMENT: 1 -----*/
 #define MEM_ALIGNMENT 4
 /*----- Default Value for MEM_SIZE: 1600 ---*/
-#define MEM_SIZE 131048
+#define MEM_SIZE 32232
 /*----- Default Value for H7 devices: 0x30044000 -----*/
-#define LWIP_RAM_HEAP_POINTER 0x30020000
+#define LWIP_RAM_HEAP_POINTER 0x30000200
 /*----- Value supported for H7 devices: 1 -----*/
 #define LWIP_SUPPORT_CUSTOM_PBUF 1
 /*----- Value in opt.h for LWIP_ETHERNET: LWIP_ARP || PPPOE_SUPPORT -*/
@@ -112,9 +112,8 @@
 /*-----------------------------------------------------------------------------*/
 /* USER CODE BEGIN 1 */
 /* ETH_CODE: first 2 macros solve errno issue with GCC 10 and ST LwIP
- * LWIPERF_CHECK_RX_DATA enables data check for iperf. Removing it might improve performance.
- */
-
+* LWIPERF_CHECK_RX_DATA enables data check for iperf. Removing it might improve performance.
+*/
 #undef LWIP_PROVIDE_ERRNO
 #define LWIP_ERRNO_STDINCLUDE
 #define LWIPERF_CHECK_RX_DATA 1
@@ -133,7 +132,6 @@ void sys_unlock_tcpip_core(void);
 
 void sys_check_core_locking(void);
 void sys_mark_tcpip_thread(void);
-
 /* USER CODE END 1 */
 
 #ifdef __cplusplus
