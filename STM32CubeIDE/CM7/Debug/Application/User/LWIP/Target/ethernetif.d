@@ -1,5 +1,5 @@
 Application/User/LWIP/Target/ethernetif.o: \
- C:/Users/Levil/GitHub/projectPP2024/projectPP2024/CM7/LWIP/Target/ethernetif.c \
+ C:/Users/Levil/GitHub/projectPP2024/STM32H745ZI-Q-Webserver/CM7/LWIP/Target/ethernetif.c \
  ../../../CM7/Core/Inc/main.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h \
@@ -61,7 +61,7 @@ Application/User/LWIP/Target/ethernetif.o: \
  ../../../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip4.h \
  ../../../Middlewares/Third_Party/LwIP/src/include/lwip/prot/etharp.h \
  ../../../Middlewares/Third_Party/LwIP/src/include/lwip/ethip6.h \
- C:/Users/Levil/GitHub/projectPP2024/projectPP2024/CM7/LWIP/Target/ethernetif.h \
+ C:/Users/Levil/GitHub/projectPP2024/STM32H745ZI-Q-Webserver/CM7/LWIP/Target/ethernetif.h \
  ../../../Drivers/BSP/Components/lan8742/lan8742.h
 ../../../CM7/Core/Inc/main.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
@@ -124,5 +124,5 @@ Application/User/LWIP/Target/ethernetif.o: \
 ../../../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip4.h:
 ../../../Middlewares/Third_Party/LwIP/src/include/lwip/prot/etharp.h:
 ../../../Middlewares/Third_Party/LwIP/src/include/lwip/ethip6.h:
-C:/Users/Levil/GitHub/projectPP2024/projectPP2024/CM7/LWIP/Target/ethernetif.h:
+C:/Users/Levil/GitHub/projectPP2024/STM32H745ZI-Q-Webserver/CM7/LWIP/Target/ethernetif.h:
 ../../../Drivers/BSP/Components/lan8742/lan8742.h:

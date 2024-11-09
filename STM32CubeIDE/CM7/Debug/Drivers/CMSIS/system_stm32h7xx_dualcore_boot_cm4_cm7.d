@@ -1,5 +1,5 @@
 Drivers/CMSIS/system_stm32h7xx_dualcore_boot_cm4_cm7.o: \
- C:/Users/Levil/GitHub/projectPP2024/projectPP2024/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c \
+ C:/Users/Levil/GitHub/projectPP2024/STM32H745ZI-Q-Webserver/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h745xx.h \
  ../../../Drivers/CMSIS/Include/core_cm7.h \

@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/list.o: \
- C:/Users/Levil/GitHub/projectPP2024/projectPP2024/Middlewares/Third_Party/FreeRTOS/Source/list.c \
+ C:/Users/Levil/GitHub/projectPP2024/STM32H745ZI-Q-Webserver/Middlewares/Third_Party/FreeRTOS/Source/list.c \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../../CM7/Core/Inc/FreeRTOSConfig.h \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

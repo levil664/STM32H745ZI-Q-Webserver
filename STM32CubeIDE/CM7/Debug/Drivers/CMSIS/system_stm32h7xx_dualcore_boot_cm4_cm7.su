@@ -1,2 +1,2 @@
-C:/Users/Levil/GitHub/projectPP2024/projectPP2024/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c:177:6:SystemInit	4	static
-C:/Users/Levil/GitHub/projectPP2024/projectPP2024/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c:323:6:SystemCoreClockUpdate	48	static
+C:/Users/Levil/GitHub/projectPP2024/STM32H745ZI-Q-Webserver/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c:177:6:SystemInit	4	static
+C:/Users/Levil/GitHub/projectPP2024/STM32H745ZI-Q-Webserver/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c:323:6:SystemCoreClockUpdate	48	static

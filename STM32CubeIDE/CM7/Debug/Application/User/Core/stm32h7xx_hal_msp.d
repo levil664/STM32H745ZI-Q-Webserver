@@ -1,5 +1,5 @@
 Application/User/Core/stm32h7xx_hal_msp.o: \
- C:/Users/Levil/GitHub/projectPP2024/projectPP2024/CM7/Core/Src/stm32h7xx_hal_msp.c \
+ C:/Users/Levil/GitHub/projectPP2024/STM32H745ZI-Q-Webserver/CM7/Core/Src/stm32h7xx_hal_msp.c \
  ../../../CM7/Core/Inc/main.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h \

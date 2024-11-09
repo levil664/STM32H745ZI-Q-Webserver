@@ -1,6 +1,6 @@
 Application/User/LWIP/App/lwip.o: \
- C:/Users/Levil/GitHub/projectPP2024/projectPP2024/CM7/LWIP/App/lwip.c \
- C:/Users/Levil/GitHub/projectPP2024/projectPP2024/CM7/LWIP/App/lwip.h \
+ C:/Users/Levil/GitHub/projectPP2024/STM32H745ZI-Q-Webserver/CM7/LWIP/App/lwip.c \
+ C:/Users/Levil/GitHub/projectPP2024/STM32H745ZI-Q-Webserver/CM7/LWIP/App/lwip.h \
  ../../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../../../CM7/LWIP/Target/lwipopts.h ../../../CM7/Core/Inc/main.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
@@ -63,7 +63,7 @@ Application/User/LWIP/App/lwip.o: \
  ../../../Middlewares/Third_Party/LwIP/src/include/lwip/timeouts.h \
  ../../../CM7/LWIP/Target/ethernetif.h \
  ../../../Middlewares/Third_Party/LwIP/src/include/lwip/init.h
-C:/Users/Levil/GitHub/projectPP2024/projectPP2024/CM7/LWIP/App/lwip.h:
+C:/Users/Levil/GitHub/projectPP2024/STM32H745ZI-Q-Webserver/CM7/LWIP/App/lwip.h:
 ../../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h:
 ../../../CM7/LWIP/Target/lwipopts.h:
 ../../../CM7/Core/Inc/main.h:

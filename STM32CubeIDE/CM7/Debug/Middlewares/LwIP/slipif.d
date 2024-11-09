@@ -1,5 +1,5 @@
 Middlewares/LwIP/slipif.o: \
- C:/Users/Levil/GitHub/projectPP2024/projectPP2024/Middlewares/Third_Party/LwIP/src/netif/slipif.c \
+ C:/Users/Levil/GitHub/projectPP2024/STM32H745ZI-Q-Webserver/Middlewares/Third_Party/LwIP/src/netif/slipif.c \
  ../../../Middlewares/Third_Party/LwIP/src/include/netif/slipif.h \
  ../../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../../../CM7/LWIP/Target/lwipopts.h ../../../CM7/Core/Inc/main.h \
