@@ -7,17 +7,6 @@
   *           + Initialization/de-initialization functions
   *           + I/O operation functions
   *           + Peripheral State and errors functions
-  ******************************************************************************
-  * @attention
-  *
-  * Copyright (c) 2017 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
-  ******************************************************************************
   @verbatim
   ==============================================================================
                         ##### How to use this driver #####
@@ -143,7 +132,19 @@
 
     [..]
 
-  @endverbatim
+    @endverbatim
+  ******************************************************************************
+  * @attention
+  *
+  * <h2><center>&copy; COPYRIGHT(c) 2017 STMicroelectronics.
+  * All rights reserved.</center></h2>
+  *
+  * This software component is licensed by ST under BSD 3-Clause license,
+  * the "License"; You may not use this file except in compliance with the
+  * License. You may obtain a copy of the License at:
+  *                        opensource.org/licenses/BSD-3-Clause
+  *
+  ******************************************************************************
   */
 
 /* Includes ------------------------------------------------------------------*/
@@ -1474,14 +1475,14 @@ HAL_StatusTypeDef HAL_MDMA_GenerateSWRequest(MDMA_HandleTypeDef *hmdma)
 
   if((hmdma->Instance->CCR &  MDMA_CCR_EN) == 0U)
   {
-    /* if no Transfer on going (MDMA enable bit not set) return error */
+    /* if no Transfer on going (MDMA enable bit not set) retrun error */
     hmdma->ErrorCode = HAL_MDMA_ERROR_NO_XFER;
 
     return HAL_ERROR;
   }
   else if(((hmdma->Instance->CISR &  MDMA_CISR_CRQA) != 0U) || (request_mode == 0U))
   {
-    /* if an MDMA ongoing request has not yet end or if request mode is not SW request return error */
+    /* if an MDMA ongoing request has not yet end or if request mode is not SW request retrun error */
     hmdma->ErrorCode = HAL_MDMA_ERROR_BUSY;
 
     return HAL_ERROR;
@@ -1754,7 +1755,7 @@ uint32_t HAL_MDMA_GetError(MDMA_HandleTypeDef *hmdma)
   * @param  SrcAddress: The source memory Buffer address
   * @param  DstAddress: The destination memory Buffer address
   * @param  BlockDataLength : The length of a block transfer in bytes
-  * @param  BlockCount: The number of blocks to be transferred
+  * @param  BlockCount: The number of blocks to be transfered
   * @retval HAL status
   */
 static void MDMA_SetConfig(MDMA_HandleTypeDef *hmdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t BlockDataLength, uint32_t BlockCount)
@@ -1897,3 +1898,4 @@ static void MDMA_Init(MDMA_HandleTypeDef *hmdma)
   * @}
   */
 
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

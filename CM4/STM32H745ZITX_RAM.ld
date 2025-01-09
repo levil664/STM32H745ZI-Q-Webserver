@@ -1,9 +1,9 @@
 /*
 ******************************************************************************
 **
-**  File        : LinkerScript.ld (debug in RAM dedicated)
+
+**  File        : LinkerScript.ld
 **
-**  Author      : STM32CubeIDE
 **
 **  Abstract    : Linker script for STM32H7 series
 **                128Kbytes RAM_EXEC and 160Kbytes RAM
@@ -21,12 +21,13 @@
 *****************************************************************************
 ** @attention
 **
-** Copyright (c) 2022 STMicroelectronics.
+** Copyright (c) 2019 STMicroelectronics.
 ** All rights reserved.
 **
-** This software is licensed under terms that can be found in the LICENSE file
-** in the root directory of this software component.
-** If no LICENSE file comes with this software, it is provided AS-IS.
+** This software component is licensed by ST under BSD 3-Clause license,
+** the "License"; You may not use this file except in compliance with the
+** License. You may obtain a copy of the License at:
+**                        opensource.org/licenses/BSD-3-Clause
 **
 ****************************************************************************
 */
@@ -35,7 +36,7 @@
 ENTRY(Reset_Handler)
 
 /* Highest address of the user mode stack */
-_estack = ORIGIN(RAM) + LENGTH(RAM);    /* end of RAM */
+_estack = 0x10048000;    /* end of RAM */
 /* Generate a link error if heap and stack don't fit into RAM */
 _Min_Heap_Size = 0x200 ;      /* required amount of heap  */
 _Min_Stack_Size = 0x400 ; /* required amount of stack */
@@ -43,7 +44,7 @@ _Min_Stack_Size = 0x400 ; /* required amount of stack */
 /* Specify the memory areas */
 MEMORY
 {
-RAM_EXEC (rx)  : ORIGIN = 0x10000000, LENGTH = 128K
+RAM_EXEC (rx)      : ORIGIN = 0x10000000, LENGTH = 128K
 RAM (xrw)      : ORIGIN = 0x10020000, LENGTH = 160K
 }
 
@@ -67,8 +68,6 @@ SECTIONS
     *(.glue_7)         /* glue arm to thumb code */
     *(.glue_7t)        /* glue thumb to arm code */
     *(.eh_frame)
-    *(.RamFunc)        /* .RamFunc sections */
-    *(.RamFunc*)       /* .RamFunc* sections */
 
     KEEP (*(.init))
     KEEP (*(.fini))
@@ -118,7 +117,7 @@ SECTIONS
   _sidata = LOADADDR(.data);
 
   /* Initialized data sections goes into RAM, load LMA copy after code */
-  .data :
+  .data : 
   {
     . = ALIGN(4);
     _sdata = .;        /* create a global symbol at data start */
@@ -129,12 +128,12 @@ SECTIONS
     _edata = .;        /* define a global symbol at data end */
   } >RAM AT> RAM_EXEC
 
-
+  
   /* Uninitialized data section */
   . = ALIGN(4);
   .bss :
   {
-    /* This is used by the startup in order to initialize the .bss section */
+    /* This is used by the startup in order to initialize the .bss secion */
     _sbss = .;         /* define a global symbol at bss start */
     __bss_start__ = _sbss;
     *(.bss)
@@ -157,7 +156,7 @@ SECTIONS
     . = ALIGN(8);
   } >RAM
 
-
+  
 
   /* Remove information from the standard libraries */
   /DISCARD/ :
