@@ -1,5 +1,5 @@
 Middlewares/Third_Party/LwIP/system/OS/sys_arch.o: \
- C:/Users/Levil/GitHub/STM32H745_Ethernet/Middlewares/Third_Party/LwIP/system/OS/sys_arch.c \
+ C:/Users/Levil/GitHub/projectPP2024/STM32H745_Ethernet/Middlewares/Third_Party/LwIP/system/OS/sys_arch.c \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/debug.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/arch.h \
  ../../Middlewares/Third_Party/LwIP/system/arch/cc.h \

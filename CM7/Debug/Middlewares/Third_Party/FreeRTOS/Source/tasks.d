@@ -1,5 +1,5 @@
 Middlewares/Third_Party/FreeRTOS/Source/tasks.o: \
- C:/Users/Levil/GitHub/STM32H745_Ethernet/Middlewares/Third_Party/FreeRTOS/Source/tasks.c \
+ C:/Users/Levil/GitHub/projectPP2024/STM32H745_Ethernet/Middlewares/Third_Party/FreeRTOS/Source/tasks.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

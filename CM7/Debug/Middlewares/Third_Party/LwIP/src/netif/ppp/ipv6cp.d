@@ -1,5 +1,5 @@
 Middlewares/Third_Party/LwIP/src/netif/ppp/ipv6cp.o: \
- C:/Users/Levil/GitHub/STM32H745_Ethernet/Middlewares/Third_Party/LwIP/src/netif/ppp/ipv6cp.c \
+ C:/Users/Levil/GitHub/projectPP2024/STM32H745_Ethernet/Middlewares/Third_Party/LwIP/src/netif/ppp/ipv6cp.c \
  ../../Middlewares/Third_Party/LwIP/src/include/netif/ppp/ppp_opts.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../LWIP/Target/lwipopts.h ../Core/Inc/main.h \

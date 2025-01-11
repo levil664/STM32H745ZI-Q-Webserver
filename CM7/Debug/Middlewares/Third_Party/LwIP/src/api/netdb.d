@@ -1,5 +1,5 @@
 Middlewares/Third_Party/LwIP/src/api/netdb.o: \
- C:/Users/Levil/GitHub/STM32H745_Ethernet/Middlewares/Third_Party/LwIP/src/api/netdb.c \
+ C:/Users/Levil/GitHub/projectPP2024/STM32H745_Ethernet/Middlewares/Third_Party/LwIP/src/api/netdb.c \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/netdb.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../LWIP/Target/lwipopts.h ../Core/Inc/main.h \

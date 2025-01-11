@@ -1,3 +1,4 @@
-../Core/Src/http_server.c:24:13:http_server_netconn_serve	40	static
-../Core/Src/http_server.c:68:13:http_server_netconn_thread	32	static
-../Core/Src/http_server.c:100:6:http_server_netconn_init	16	static
+../Core/Src/http_server.c:16:6:get_board_info	56	static
+../Core/Src/http_server.c:43:13:http_server_netconn_serve	1064	static
+../Core/Src/http_server.c:76:13:http_server_netconn_thread	32	static
+../Core/Src/http_server.c:102:6:http_server_netconn_init	16	static

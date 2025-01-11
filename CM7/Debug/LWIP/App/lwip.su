@@ -1,4 +1,4 @@
 ../LWIP/App/lwip.c:54:6:ethernet_status_callback	88	static
 ../LWIP/App/lwip.c:73:9:ethernet_ip_check	224	static
 ../LWIP/App/lwip.c:101:6:MX_LWIP_Init	64	static
-../LWIP/App/lwip.c:134:13:ethernet_link_status_updated	16	static
+../LWIP/App/lwip.c:146:13:ethernet_link_status_updated	16	static

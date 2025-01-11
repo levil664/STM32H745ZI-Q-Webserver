@@ -1,7 +1,3 @@
-/*
- * http_server.h 
- */
-
 #ifndef INC_HTTP_SERVER_H_
 #define INC_HTTP_SERVER_H_
 
